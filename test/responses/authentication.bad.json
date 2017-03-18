@@ -1,0 +1,23 @@
+{
+  "request": {
+    "Target": "Offer",
+    "Format": "json",
+    "Service": "HasOffers",
+    "Version": "2",
+    "NetworkId": "========",
+    "NetworkToken": "===============",
+    "Method": "findAll",
+    "_": "99999999999999"
+  },
+  "response": {
+    "status": -1,
+    "httpStatus": 200,
+    "data": "",
+    "errors": [
+      {
+        "publicMessage": "NetworkToken =============== is not authenticated"
+      }
+    ],
+    "errorMessage": "NetworkToken =============== is not authenticated"
+  }
+}
